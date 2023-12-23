@@ -83,4 +83,12 @@ else
     ;
 }
 
+//If nothing needs to be restocked
+if (candyStock > candyRestock && chipStock > chipRestock && sodaStock > sodaRestock)
+{
+    Console.WriteLine("Nothing needs to be restocked at this time.");
+} else {
+    ;
+}
+
 Console.WriteLine("Goodbye!");
