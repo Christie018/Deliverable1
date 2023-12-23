@@ -31,7 +31,7 @@ input = int.Parse(Console.ReadLine());
 if (input <= chipStock)
 {
     chipStock -= input;
-    Console.WriteLine("There are " + chipStock + " sodas left.");
+    Console.WriteLine("There are " + chipStock + " chips left.");
 }
 else
 {
@@ -46,7 +46,7 @@ input = int.Parse(Console.ReadLine());
 if (input <= candyStock)
 {
     candyStock -= input;
-    Console.WriteLine("There are " + candyStock + " sodas left.");
+    Console.WriteLine("There are " + candyStock + " candies left.");
 }
 else
 {
